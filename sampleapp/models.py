@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-import thresher
+from thresher import thresher
 
 
 class Employee(models.Model):
